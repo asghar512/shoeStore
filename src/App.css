@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Home{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+  padding-top: 30px;
+  background-color: grey;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.home__Price{
+  color: grey;
+  transition: 0.3s ease-in-out;
+  border: 2px solid black;
+  margin-top: 10px;
+ padding-top: 10px;
+}
+.home__Price:hover{
+  color: aqua !important;
+}
+.home__Price:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+/* .men__Price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: pink;
+  background-color: pink !important;
+  transition: 0.3s ease-in-out;
+  border: 2px solid black;
+  margin-top: 10px;
+ padding-top: 10px;
+ text-decoration: none;
+ 
+} */
+.men__Price:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.product__imgpara{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 7px 2px black ;
+  text-align: center;
+  margin-top: 20px ;
+}
+
+@media (max-width:992px){
+  .product__imgpara{
+    flex-direction: column;
+  }
+}
+.product__para{
+  color: aqua;
+  text-align: left;
+  margin-left: 10px;
+  justify-content: left;
+  font-size: 20px;
+}
+.tittle{
+  color: aqua !important;
+}
+@media (max-width:992px){
+  .product__imgpara{
+    text-align: center;
+    justify-content: center;
+  }
+}
+.product__price{
+  /* margin-top: 20px; */
+  width: 100%;
+ margin: 20px auto;
+ /* padding: 4px; */
+ align-items: center;
+ background-color: gray;
+ color: aqua;
+ display: flex;
+ padding: 10px;
+ justify-content: space-between;
+  transition: 0.4s ease-in-out;
+  padding-top: 13px;
+}
+.product__price:hover{
+  background-color: rgb(17, 13, 54);
+  color: gray;
+  cursor: pointer;
+}
+.prrice{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#nav__links{
+  border: 2px solid red;
+}
+.navbar-nav a{
+  color: aqua !important;
+  font-size: 20px !important;
+  font-weight: 100 !important;
+  text-decoration:chartreuse !important;
+
+} 
+.navbar-nav a{
+  padding-right: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  color: white;
+}
+.navbar-nav a:hover{
+ 
+  color: crimson !important;
+}
+a{
+  text-decoration: none !important;
+}
+.info{
+  font-size: 20px;
+  color: #19BFDA;
+  text-align: center;
+}
+.Menn{
+  transition: 0.5s ease-in;
+  border-radius: 9px !important;
+}
+.Menn:hover{
+  box-shadow: 7px 8px 7px 8px grey !important;
+  border-radius: 120px !important;
+}
+.nike{
+  /* margin-top: 30px; */
+  margin-bottom: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+a .header_text{
+  color: aqua !important;
+}
